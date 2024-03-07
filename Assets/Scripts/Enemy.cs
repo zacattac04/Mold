@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         health = maxHP;
-        anim.GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame

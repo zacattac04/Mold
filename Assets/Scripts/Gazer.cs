@@ -41,7 +41,7 @@ public class Gazer : MonoBehaviour //Enemy
         origin_position = transform.position;
         currentTime = Time.time;
         previousTime = Time.time;
-        anim.GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
