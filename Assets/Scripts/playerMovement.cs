@@ -43,6 +43,8 @@ public class playerMovement : MonoBehaviour
 
     private string HIDING_PLACE_TAG = "HidingPlace";
 
+    [SerializeField]
+    private Animator anim;
 
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
@@ -78,6 +80,13 @@ public class playerMovement : MonoBehaviour
         //Debug.Log(xMov);
         if(canMove())
             transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
+
+        if(xMov != 0){
+            anim.SetBool("IsWalking", true);
+        }
+        else{
+            anim.SetBool("IsWalking", false);
+        }
     }
 
     //Handles jumping from the ground
@@ -86,6 +95,7 @@ public class playerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump") && onGround && canMove()){
             onGround = false;
             myBody.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
+            anim.SetBool("IsJumping", true);
         }
     }
 
@@ -103,6 +113,9 @@ public class playerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag(GROUND_TAG)){
             onGround = true;
+            if(anim.GetBool("IsJumping")){
+                anim.SetBool("IsJumping", false);
+            }
         }
         else if(collision.gameObject.CompareTag(ENEMY_TAG)){
             Death();
