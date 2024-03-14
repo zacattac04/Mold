@@ -18,6 +18,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private Rigidbody2D myBody;
 
+    [SerializeField]
+    private SpriteRenderer sprite;
+
     private int hp = 1;
 
     //variables that may be used multiple times or frequnetly
@@ -28,10 +31,14 @@ public class playerMovement : MonoBehaviour
     private bool direction = true;
     private bool onGround = true;
 
+    private bool canHide = false;
+    private bool hiding = false;
 
     //All tags the the player will be interacting with
     private string GROUND_TAG = "Ground";
     private string ENEMY_TAG = "Enemy";
+
+    private string HIDING_PLACE_TAG = "HidingPlace";
 
 
     private void awake(){
@@ -49,6 +56,7 @@ public class playerMovement : MonoBehaviour
     {
         PlayerMovement();
         PlayerJump();
+        Hide();
     }
 
     //Player's x and y movement not including special movement options
@@ -65,16 +73,29 @@ public class playerMovement : MonoBehaviour
         }
 
         //Debug.Log(xMov);
-        transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
+        if(canMove())
+            transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
     }
 
     //Handles jumping from the ground
     void PlayerJump(){
         //make sure the player is only able to jump while on the ground
-        if(Input.GetButtonDown("Jump") && onGround){
+        if(Input.GetButtonDown("Jump") && onGround && canMove()){
             onGround = false;
             myBody.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
         }
+    }
+
+    void Hide(){
+        if(Input.GetButtonDown("Hide") && canHide && onGround) {
+            hiding = !hiding;
+            Debug.Log("Hiding = " + hiding);
+            sprite.enabled = !hiding;
+        }
+    }
+
+    bool canMove() {
+        return (!hiding);
     }
 
     private void OnCollisionEnter2D(Collision2D collision){
@@ -83,6 +104,18 @@ public class playerMovement : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag(ENEMY_TAG)){
             Death();
+        } 
+    }
+
+    private void OnTriggerEnter2D(Collider2D col) {
+        if (col.gameObject.CompareTag(HIDING_PLACE_TAG)) {
+            canHide = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col) {
+        if (col.gameObject.CompareTag(HIDING_PLACE_TAG)) {
+            canHide = false;
         }
     }
 
