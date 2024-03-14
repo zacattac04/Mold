@@ -22,7 +22,7 @@ public class playerMovement : MonoBehaviour
     private SpriteRenderer sprite;
 
     [SerializeField]
-    private BoxCollider2D collider;
+    private MonoBehaviour shadow;
 
     private int hp = 1;
 
@@ -103,6 +103,7 @@ public class playerMovement : MonoBehaviour
         if(Input.GetButtonDown("Hide") && canHide && onGround) {
             hiding = !hiding;
             sprite.enabled = !hiding;
+            shadow.enabled = !hiding;
         }
     }
 
