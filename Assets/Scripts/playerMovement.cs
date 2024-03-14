@@ -21,6 +21,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private SpriteRenderer sprite;
 
+    [SerializeField]
+    private BoxCollider2D collider;
+
     private int hp = 1;
 
     //variables that may be used multiple times or frequnetly
@@ -89,7 +92,6 @@ public class playerMovement : MonoBehaviour
     void Hide(){
         if(Input.GetButtonDown("Hide") && canHide && onGround) {
             hiding = !hiding;
-            Debug.Log("Hiding = " + hiding);
             sprite.enabled = !hiding;
         }
     }
@@ -119,6 +121,9 @@ public class playerMovement : MonoBehaviour
         }
     }
 
+    public bool isHiding() {
+        return hiding;
+    }
     void Death(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

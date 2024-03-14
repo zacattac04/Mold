@@ -154,7 +154,8 @@ public class Gazer : MonoBehaviour //Enemy
 
         RaycastHit2D hit = Physics2D.Linecast(rayOrigin.position, endPos, 1 << LayerMask.NameToLayer("Default"));
         if(hit.collider != null){
-            if(hit.collider.gameObject.CompareTag("Player")){
+            GameObject obj = hit.collider.gameObject;
+            if(obj.CompareTag("Player") && !obj.GetComponent<playerMovement>().isHiding()){
                 result = true;
                 isAgro = true;
                 Debug.DrawLine(rayOrigin.position, hit.point, Color.red);
