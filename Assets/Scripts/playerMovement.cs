@@ -10,6 +10,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private float speed = 5;
 
+    [SerializeField]
+    private float crawlSpeed = 2.5f;
+
     //how high the character will jump
     [SerializeField]
     private float jumpforce = 10;
@@ -79,13 +82,29 @@ public class playerMovement : MonoBehaviour
 
         //Debug.Log(xMov);
         if(canMove())
-            transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
+        //transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
 
         if(xMov != 0){
-            anim.SetBool("IsWalking", true);
+            if(Input.GetButton("Crawl") && onGround){
+                anim.SetBool("IsCrawling", true);
+                anim.SetBool("IsWalking", false);
+                transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * crawlSpeed;
+            }
+            else{
+                anim.SetBool("IsWalking", true);
+                anim.SetBool("IsCrawling", false);
+                transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
+            }
         }
         else{
-            anim.SetBool("IsWalking", false);
+            if(Input.GetButton("Crawl") && onGround){
+                anim.SetBool("IsCrawling", true);
+                anim.SetBool("IsWalking", false);
+            }
+            else{
+                anim.SetBool("IsWalking", false);
+                anim.SetBool("IsCrawling", false);
+            }
         }
     }
 
