@@ -74,9 +74,11 @@ public class playerMovement : MonoBehaviour
         yMov = Input.GetAxisRaw("Vertical");
 
         if(xMov > 0){
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             direction = true;
         }
         else if(xMov < 0){
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             direction = false;
         }
 
