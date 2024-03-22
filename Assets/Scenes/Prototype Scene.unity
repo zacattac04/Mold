@@ -694,7 +694,7 @@ Animator:
   m_GameObject: {fileID: 273437110}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e3e9cf114484f6748ae12486f06f6330, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2584a91a90396944aad26caf517ba256, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3646,7 +3646,7 @@ Transform:
   m_GameObject: {fileID: 1866229251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.93, y: -2.63, z: 0}
+  m_LocalPosition: {x: 21.87, y: -2.83, z: 0}
   m_LocalScale: {x: 1.8865, y: 3.992, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4370,6 +4370,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gazer
       objectReference: {fileID: 0}
+    - target: {fileID: 2269241695297900774, guid: e6b8dec602fb3f948a046e7f1c6d2403, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 273437117}
+    - target: {fileID: 2269241695297900775, guid: e6b8dec602fb3f948a046e7f1c6d2403, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 273437117}
     - target: {fileID: 2269241695297900775, guid: e6b8dec602fb3f948a046e7f1c6d2403, type: 3}
       propertyPath: player
       value: 

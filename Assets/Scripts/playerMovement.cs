@@ -27,8 +27,6 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private MonoBehaviour shadow;
 
-    private int hp = 1;
-
     //variables that may be used multiple times or frequnetly
     private float xMov, yMov;
 

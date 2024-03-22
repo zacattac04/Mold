@@ -33,6 +33,7 @@ public class Gazer : MonoBehaviour //Enemy
     private float currentTime;
     private float previousTime;
 
+    [SerializeField]
     private Animator anim;
 
     // Start is called before the first frame update
@@ -41,12 +42,12 @@ public class Gazer : MonoBehaviour //Enemy
         origin_position = transform.position;
         currentTime = Time.time;
         previousTime = Time.time;
-        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         currentTime = Time.time;
         //Debug.Log(facingRight);
         //float playerdist = Vector2.Distance(transform.position, player.position);
@@ -55,7 +56,7 @@ public class Gazer : MonoBehaviour //Enemy
         if(CanSeePlayer(sightRange)){
             AtOrigin = false;
             ChasePlayer();
-            anim.Play("Base Layer.run", 0, 0);
+            anim.SetBool("IsRunning", true);
         }
         else{
             //if the enemy was just following the player
@@ -63,6 +64,7 @@ public class Gazer : MonoBehaviour //Enemy
 
                 //Invoke("ReturnToOrigin", waitTime);
                 isAgro = false;
+                anim.SetBool("IsRunning", false);
             }
             //has not been following the player for awhile, so return to original spot
             else{
