@@ -17,7 +17,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private float jumpforce = 10;
 
-    
+    [SerializeField]
+    private float maxVerticalSpeed = 20;
+
     [SerializeField]
     private Rigidbody2D myBody;
 
@@ -114,6 +116,9 @@ public class playerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump") && onGround && canMove()){
             onGround = false;
             myBody.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
+            if(myBody.velocity.y >= maxVerticalSpeed){
+                myBody.velocity = new Vector3(myBody.velocity.x, maxVerticalSpeed, 0f);
+            }
             anim.SetBool("IsJumping", true);
         }
     }
