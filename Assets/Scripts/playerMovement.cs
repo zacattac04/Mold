@@ -62,9 +62,11 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerMovement();
-        PlayerJump();
-        Hide();
+        if(!PauseMenu.isPaused){
+            PlayerMovement();
+            PlayerJump();
+            Hide();
+        }
     }
 
     //Player's x and y movement not including special movement options
