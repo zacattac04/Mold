@@ -29,7 +29,10 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private MonoBehaviour shadow;
 
-    //variables that may be used multiple times or frequnetly
+    [SerializeField]
+    private BoxCollider2D collider;
+
+    //variables that may be used multiple times or frequently
     private float xMov, yMov;
 
 
@@ -45,10 +48,14 @@ public class playerMovement : MonoBehaviour
     private string ENEMY_TAG = "Enemy";
 
     private string HIDING_PLACE_TAG = "HidingPlace";
-
     [SerializeField]
     private Animator anim;
 
+    private Vector2 walkSize = new Vector2(0.4872923f, 0.781405f);
+    private Vector2 walkOffset = new Vector2(0.03536217f, 0.3832514f);
+
+    private Vector2 crawlSize = new Vector2(0.8823045f, 0.4854465f);
+    private Vector2 crawlOffset = new Vector2(-0.01850334f, 0.2351222f);
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
     }
@@ -92,11 +99,15 @@ public class playerMovement : MonoBehaviour
             if(Input.GetButton("Crawl") && onGround){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
+                collider.size = crawlSize;
+                collider.offset = crawlOffset;
                 transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * crawlSpeed;
             }
             else{
                 anim.SetBool("IsWalking", true);
                 anim.SetBool("IsCrawling", false);
+                collider.size = walkSize;
+                collider.offset = walkOffset;
                 transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
             }
         }
@@ -104,10 +115,14 @@ public class playerMovement : MonoBehaviour
             if(Input.GetButton("Crawl") && onGround){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
+                collider.size = crawlSize;
+                collider.offset = crawlOffset;
             }
             else{
                 anim.SetBool("IsWalking", false);
                 anim.SetBool("IsCrawling", false);
+                collider.size = walkSize;
+                collider.offset = walkOffset;
             }
         }
     }
