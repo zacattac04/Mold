@@ -11,6 +11,9 @@ public class TitleMenu : MonoBehaviour
 
     public GameObject canvas;
 
+    private AssetBundle LoadedAssetBundles;
+    private string[] scenePaths;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +34,7 @@ public class TitleMenu : MonoBehaviour
 
     public void ToWarehouseLevel(){
         
-        //SceneManager.LoadScene("TempWarehouseSceneName");
+        SceneManager.LoadScene("Warehouse New Level", LoadSceneMode.Single);
     }
 
     public void ToLevelSelect(){

@@ -44,7 +44,7 @@ public class PauseMenu : MonoBehaviour
 
     public void TitleScreen(){
         Time.timeScale = 1f;
-        SceneManager.LoadScene("TitleScreen");
+        SceneManager.LoadScene("TitleScreen", LoadSceneMode.Single);
     }
 
     public void QuitGame(){

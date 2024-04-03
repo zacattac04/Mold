@@ -48,6 +48,8 @@ public class playerMovement : MonoBehaviour
     private string ENEMY_TAG = "Enemy";
 
     private string HIDING_PLACE_TAG = "HidingPlace";
+
+    private string BLOCK_TAG = "Block";
     [SerializeField]
     private Animator anim;
 
@@ -161,7 +163,20 @@ public class playerMovement : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag(ENEMY_TAG)){
             Death();
-        } 
+        }
+        else if(collision.gameObject.CompareTag(BLOCK_TAG)){
+            onGround = true;
+            if(anim.GetBool("IsJumping")){
+                anim.SetBool("IsJumping", false);
+            }
+            anim.SetBool("IsPushing", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision){
+        if(collision.gameObject.CompareTag(BLOCK_TAG)){
+            anim.SetBool("IsPushing", false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col) {
