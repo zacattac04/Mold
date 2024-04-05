@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: aec0260cdf5c64a4e85c7712dd0df96d
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 858d40ce2375ea743a29775e24ff37e8
   - enabled: 1
     path: Assets/Scenes/Warehouse New Level.unity
     guid: cc6e80720a408814d81c20cdc70b04b6

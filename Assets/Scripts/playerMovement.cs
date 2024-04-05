@@ -165,11 +165,22 @@ public class playerMovement : MonoBehaviour
             Death();
         }
         else if(collision.gameObject.CompareTag(BLOCK_TAG)){
-            onGround = true;
-            if(anim.GetBool("IsJumping")){
-                anim.SetBool("IsJumping", false);
+            //if player is on top of the box, allow them to jump, but no push animation
+            if(collision.gameObject.transform.position.y < transform.position.y){
+                onGround = true;
+                if(anim.GetBool("IsJumping")){
+                    anim.SetBool("IsJumping", false);
+                }
             }
-            anim.SetBool("IsPushing", true);
+            //1.233 is the buffer, since the center of their models are not at the same y position 
+            //box is on player no animation change
+            else if(collision.gameObject.transform.position.y > transform.position.y + 1.233){
+                int temp = 0;
+            }
+            //player is in line with the box so play pushing animation
+            else{
+                anim.SetBool("IsPushing", true);
+            }
         }
     }
 
