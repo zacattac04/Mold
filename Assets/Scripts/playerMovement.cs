@@ -58,6 +58,8 @@ public class playerMovement : MonoBehaviour
 
     private Vector2 crawlSize = new Vector2(0.8823045f, 0.4854465f);
     private Vector2 crawlOffset = new Vector2(-0.01850334f, 0.2351222f);
+
+    private Vector3 HidePosition;
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
     }
@@ -143,6 +145,7 @@ public class playerMovement : MonoBehaviour
     }
 
     void Hide(){
+
         if(Input.GetButtonDown("Hide") && canHide && onGround) {
             hiding = !hiding;
             sprite.enabled = !hiding;
@@ -162,7 +165,9 @@ public class playerMovement : MonoBehaviour
             }
         }
         else if(collision.gameObject.CompareTag(ENEMY_TAG)){
-            Death();
+            if(!hiding){
+                Death();
+            }
         }
         else if(collision.gameObject.CompareTag(BLOCK_TAG)){
             //if player is on top of the box, allow them to jump, but no push animation
