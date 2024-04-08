@@ -10,6 +10,9 @@ public class block : MonoBehaviour
     [SerializeField]
     float outwardDamage = 1;
 
+    [SerializeField]
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +30,9 @@ public class block : MonoBehaviour
         if(collision.gameObject.CompareTag(ENEMY_TAG)){
             collision.gameObject.TryGetComponent<Enemy>(out Enemy curr_enemy);
             if(transform.position.y > curr_enemy.transform.position.y){
-                curr_enemy.takeDamage(outwardDamage);    
-                Destroy(gameObject);
+                curr_enemy.takeDamage(outwardDamage);   
+                anim.SetBool("isBroken", true);
+                Destroy(gameObject, 1.0f);
             }
         }
     }
