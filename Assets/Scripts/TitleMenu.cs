@@ -29,7 +29,7 @@ public class TitleMenu : MonoBehaviour
 
     public void ToHouseLevel(){
 
-        //SceneManager.LoadScene("TempHouseSceneName");
+        SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
     }
 
     public void ToWarehouseLevel(){
