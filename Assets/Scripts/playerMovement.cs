@@ -67,6 +67,7 @@ public class playerMovement : MonoBehaviour
     private Vector3 HidePosition;
 
     public locker currLocker;
+
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
     }
@@ -162,6 +163,14 @@ public class playerMovement : MonoBehaviour
             sprite.enabled = !hiding;
             shadow.enabled = !hiding;
             currLocker.playerEnter();
+
+            if (hiding) {
+                int hideLayer = LayerMask.NameToLayer("Hiding");
+                gameObject.layer = hideLayer;
+            } else {
+                int defaultLayer = LayerMask.NameToLayer("Default");
+                gameObject.layer = defaultLayer;
+            }
         }
     }
 

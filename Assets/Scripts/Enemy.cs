@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         health = maxHP;
+        Physics2D.IgnoreLayerCollision(2, 6, true);
     }
 
     // Update is called once per frame
