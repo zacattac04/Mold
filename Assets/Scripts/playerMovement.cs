@@ -60,6 +60,8 @@ public class playerMovement : MonoBehaviour
     private Vector2 crawlOffset = new Vector2(-0.01850334f, 0.2351222f);
 
     private Vector3 HidePosition;
+
+    public locker currLocker;
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
     }
@@ -150,6 +152,7 @@ public class playerMovement : MonoBehaviour
             hiding = !hiding;
             sprite.enabled = !hiding;
             shadow.enabled = !hiding;
+            currLocker.playerEnter();
         }
     }
 
