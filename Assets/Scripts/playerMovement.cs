@@ -31,9 +31,7 @@ public class playerMovement : MonoBehaviour
 
     [SerializeField]
     private BoxCollider2D collider;
-
-    [SerializeField]
-    private BoxCollider2D ceilDetector;
+    
 
     //variables that may be used multiple times or frequently
     private float xMov, yMov;
@@ -45,14 +43,15 @@ public class playerMovement : MonoBehaviour
 
     private bool canHide = false;
     private bool hiding = false;
-    private bool crawling = false;
     private bool forceCrawl = false;
+    private bool nearCrawlSpace;
 
     //All tags the the player will be interacting with
     private string GROUND_TAG = "Ground";
     private string ENEMY_TAG = "Enemy";
 
     private string HIDING_PLACE_TAG = "HidingPlace";
+    private string CRAWL_SPACE_TAG = "crawlSpace";
 
     private string BLOCK_TAG = "Block";
     [SerializeField]
@@ -68,6 +67,7 @@ public class playerMovement : MonoBehaviour
 
     public locker currLocker;
 
+    private CrawlSpace cSpace;
     private void awake(){
         myBody = GetComponent<Rigidbody2D>();
     }
@@ -85,6 +85,7 @@ public class playerMovement : MonoBehaviour
             PlayerMovement();
             PlayerJump();
             Hide();
+            EnterCrawlSpace();
         }
     }
 
@@ -108,9 +109,7 @@ public class playerMovement : MonoBehaviour
         //transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
 
         if(xMov != 0){
-            if(Input.GetButton("Crawl") && onGround){
-                crawling = true;
-                ceilDetector.enabled = true;
+            if((Input.GetButton("Crawl") && onGround) || forceCrawl){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -126,9 +125,7 @@ public class playerMovement : MonoBehaviour
             }
         }
         else{
-            if(Input.GetButton("Crawl") && onGround){
-                crawling = true;
-                ceilDetector.enabled = true;
+            if((Input.GetButton("Crawl") && onGround) || forceCrawl){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -170,6 +167,20 @@ public class playerMovement : MonoBehaviour
             } else {
                 int defaultLayer = LayerMask.NameToLayer("Default");
                 gameObject.layer = defaultLayer;
+            }
+        }
+    }
+
+    void EnterCrawlSpace(){
+        if(Input.GetButtonDown("Hide") && nearCrawlSpace && onGround) {
+            transform.position = cSpace.getPos().position;
+            Debug.Log("Moved into Crawl Space");
+            if (cSpace.isEntrance()) {
+                forceCrawl = true;
+                Debug.Log("Forcing crawl");
+            } else {
+                forceCrawl = false;
+                Debug.Log("No longer forced to crawl");
             }
         }
     }
@@ -220,11 +231,20 @@ public class playerMovement : MonoBehaviour
         if (col.gameObject.CompareTag(HIDING_PLACE_TAG)) {
             canHide = true;
         }
+        if (col.gameObject.CompareTag(CRAWL_SPACE_TAG)) {
+            nearCrawlSpace = true;
+            cSpace = col.gameObject.GetComponent<CrawlSpace>();
+            Debug.Log("Entered Crawl Space");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D col) {
         if (col.gameObject.CompareTag(HIDING_PLACE_TAG)) {
             canHide = false;
+        }
+        if (col.gameObject.CompareTag(CRAWL_SPACE_TAG)) {
+            nearCrawlSpace = false;
+            Debug.Log("Exited Crawl Space");
         }
     }
 
