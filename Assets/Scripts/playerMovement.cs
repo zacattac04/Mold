@@ -32,6 +32,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private BoxCollider2D collider;
 
+    [SerializeField]
+    private BoxCollider2D ceilDetector;
+
     //variables that may be used multiple times or frequently
     private float xMov, yMov;
 
@@ -42,6 +45,8 @@ public class playerMovement : MonoBehaviour
 
     private bool canHide = false;
     private bool hiding = false;
+    private bool crawling = false;
+    private bool forceCrawl = false;
 
     //All tags the the player will be interacting with
     private string GROUND_TAG = "Ground";
@@ -103,6 +108,8 @@ public class playerMovement : MonoBehaviour
 
         if(xMov != 0){
             if(Input.GetButton("Crawl") && onGround){
+                crawling = true;
+                ceilDetector.enabled = true;
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -119,6 +126,8 @@ public class playerMovement : MonoBehaviour
         }
         else{
             if(Input.GetButton("Crawl") && onGround){
+                crawling = true;
+                ceilDetector.enabled = true;
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
