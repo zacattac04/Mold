@@ -17,7 +17,9 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         health = maxHP;
-        Physics2D.IgnoreLayerCollision(2, 6, true);
+        int selfLayer = LayerMask.NameToLayer("Ignore Raycast");
+        int hideLayer = LayerMask.NameToLayer("Hiding");
+        Physics2D.IgnoreLayerCollision(selfLayer, hideLayer, true);
     }
 
     // Update is called once per frame
