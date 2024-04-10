@@ -8,6 +8,7 @@ public class TitleMenu : MonoBehaviour
 
     public GameObject titlingMenu;
     public GameObject LevelMenu;
+    public GameObject CreditMenu;
 
     public GameObject canvas;
 
@@ -18,7 +19,8 @@ public class TitleMenu : MonoBehaviour
     void Start()
     {
         titlingMenu.SetActive(true);
-        LevelMenu.SetActive(false);   
+        LevelMenu.SetActive(false);
+        CreditMenu.SetActive(false);   
     }
 
     // Update is called once per frame
@@ -39,12 +41,20 @@ public class TitleMenu : MonoBehaviour
 
     public void ToLevelSelect(){
         titlingMenu.SetActive(false);
+        CreditMenu.SetActive(false);
         LevelMenu.SetActive(true);
     }
 
     public void ToTitleScreen(){
         LevelMenu.SetActive(false);
+        CreditMenu.SetActive(false);
         titlingMenu.SetActive(true);
+    }
+
+    public void ToCredits(){
+        LevelMenu.SetActive(false);
+        CreditMenu.SetActive(true);
+        titlingMenu.SetActive(false);
     }
 
     public void QuitGame(){
