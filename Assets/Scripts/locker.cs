@@ -9,13 +9,13 @@ public class locker : MonoBehaviour
     private Animator anim;
 
     [SerializeField]
-    private GameObject test;
+    private GameObject text;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        test.GetComponent<SpriteRenderer>().enabled = false;
+        text.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     // Update is called once per frame
@@ -30,13 +30,13 @@ public class locker : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.CompareTag("Player")){
-            test.GetComponent<SpriteRenderer>().enabled = true;
+            text.GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision){
         if(collision.gameObject.CompareTag("Player")){
-            test.GetComponent<SpriteRenderer>().enabled = false;
+            text.GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 }
