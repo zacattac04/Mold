@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: aec0260cdf5c64a4e85c7712dd0df96d
   - enabled: 1
-    path: Assets/Scenes/Warehouse New Level.unity
+    path: Assets/Scenes/Level 2 - Warehouse.unity
     guid: cc6e80720a408814d81c20cdc70b04b6
   - enabled: 1
-    path: Assets/Scenes/Level 1/Level 1 Soundedit.unity
+    path: Assets/Scenes/Level 1 - House.unity
     guid: f9532bcdfc4ffd1428d0136743a651c0
   m_configObjects: {}
