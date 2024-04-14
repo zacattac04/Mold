@@ -377,6 +377,8 @@ MonoBehaviour:
   LevelMenu: {fileID: 1793279006}
   CreditMenu: {fileID: 873163080}
   canvas: {fileID: 114055697}
+  houseLevel: Level 1 - House
+  warehouseLevel: Level 2 - Warehouse
 --- !u!1 &446740329
 GameObject:
   m_ObjectHideFlags: 0

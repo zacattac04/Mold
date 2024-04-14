@@ -13,7 +13,12 @@ public class TitleMenu : MonoBehaviour
     public GameObject canvas;
 
     private AssetBundle LoadedAssetBundles;
-    private string[] scenePaths;
+    
+    [SerializeField]
+    private string houseLevel;
+
+    [SerializeField]
+    private string warehouseLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -31,12 +36,12 @@ public class TitleMenu : MonoBehaviour
 
     public void ToHouseLevel(){
 
-        SceneManager.LoadScene("Level 1 Soundedit", LoadSceneMode.Single);
+        SceneManager.LoadScene(houseLevel, LoadSceneMode.Single);
     }
 
     public void ToWarehouseLevel(){
         
-        SceneManager.LoadScene("Warehouse New Level", LoadSceneMode.Single);
+        SceneManager.LoadScene(warehouseLevel, LoadSceneMode.Single);
     }
 
     public void ToLevelSelect(){
