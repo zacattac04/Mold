@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39a916ce18257454a9ef743477a3080f
+guid: daf34bb066453e64595386bfe86393d6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: locker open animation_0
+      name: locker close animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b63a8453296f59d4098af6e6dcb220f5
-      internalID: -2134254600
+      spriteID: bbf8c8b8761b8d748b35e4f15f13e4e2
+      internalID: -1536388363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_1
+      name: locker close animation_1
       rect:
         serializedVersion: 2
         x: 269
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c96e0aa3a0f0cb40a8438660f65a87c
-      internalID: 760581282
+      spriteID: 50f153c78339c2745b8816876246b171
+      internalID: -1039944074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_2
+      name: locker close animation_2
       rect:
         serializedVersion: 2
         x: 538
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e96e9e88753b24c85108c07db9227b
-      internalID: -121494022
+      spriteID: 75f7f171668dede4292b72f2160a01d4
+      internalID: 493169694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_3
+      name: locker close animation_3
       rect:
         serializedVersion: 2
         x: 807
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701757323e20c2b4ea7f2ed8b426473c
-      internalID: 1399698613
+      spriteID: ab9f33b71b585304c9ca4dccd4efcf7b
+      internalID: 1787830642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_4
+      name: locker close animation_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 265e1497eab47794891878500733a8f0
-      internalID: 1968012892
+      spriteID: 3568638c7d97dd5419b7d5a5b85fa95b
+      internalID: -1090062666
       vertices: []
       indices: 
       edges: []
@@ -212,11 +212,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      locker open animation_0: -2134254600
-      locker open animation_1: 760581282
-      locker open animation_2: -121494022
-      locker open animation_3: 1399698613
-      locker open animation_4: 1968012892
+      locker close animation_0: -1536388363
+      locker close animation_1: -1039944074
+      locker close animation_2: 493169694
+      locker close animation_3: 1787830642
+      locker close animation_4: -1090062666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

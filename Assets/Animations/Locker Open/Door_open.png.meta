@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39a916ce18257454a9ef743477a3080f
+guid: 04617197b4b49304d92cf3255a81ef0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,106 +97,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: locker open animation_0
+      name: Door_open_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 659
-        width: 269
-        height: 659
+        y: 721
+        width: 174
+        height: 303
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b63a8453296f59d4098af6e6dcb220f5
-      internalID: -2134254600
+      spriteID: b6feb6e20a9af4c409d0b3aab64e8c3c
+      internalID: 5610268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_1
+      name: Door_open_1
       rect:
         serializedVersion: 2
-        x: 269
-        y: 659
-        width: 269
-        height: 659
+        x: 175
+        y: 691
+        width: 174
+        height: 333
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c96e0aa3a0f0cb40a8438660f65a87c
-      internalID: 760581282
+      spriteID: d3e96a89695378e4b97d325e56c402a1
+      internalID: -1895523939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_2
+      name: Door_open_2
       rect:
         serializedVersion: 2
-        x: 538
-        y: 659
-        width: 269
-        height: 659
+        x: 350
+        y: 650
+        width: 174
+        height: 365
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e96e9e88753b24c85108c07db9227b
-      internalID: -121494022
+      spriteID: 7ebd07fbc5b51e346843d01de4ba5f3d
+      internalID: 1524191447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker open animation_3
+      name: Door_open_3
       rect:
         serializedVersion: 2
-        x: 807
-        y: 659
-        width: 269
-        height: 659
+        x: 525
+        y: 641
+        width: 174
+        height: 383
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701757323e20c2b4ea7f2ed8b426473c
-      internalID: 1399698613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: locker open animation_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 269
-        height: 659
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 265e1497eab47794891878500733a8f0
-      internalID: 1968012892
+      spriteID: adcf40c43f44f9245927f0095c835d29
+      internalID: 1070309085
       vertices: []
       indices: 
       edges: []
@@ -212,11 +191,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      locker open animation_0: -2134254600
-      locker open animation_1: 760581282
-      locker open animation_2: -121494022
-      locker open animation_3: 1399698613
-      locker open animation_4: 1968012892
+      Door_open_0: 5610268
+      Door_open_1: -1895523939
+      Door_open_2: 1524191447
+      Door_open_3: 1070309085
+      Door_open_4: 269005152
+      Door_open_5: -1502215674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
