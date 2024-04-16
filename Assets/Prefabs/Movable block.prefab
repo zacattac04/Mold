@@ -175,6 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outwardDamage: 1
   anim: {fileID: -8022190907967977618}
+  myBody: {fileID: 2041847885443292512}
+  maximumVerticalSpeed: 0.0000002
 --- !u!114 &6030714808940143170
 MonoBehaviour:
   m_ObjectHideFlags: 0
