@@ -31,6 +31,10 @@ public class playerMovement : MonoBehaviour
 
     [SerializeField]
     private BoxCollider2D collider;
+
+    [SerializeField]
+    private bool crawlToggle;
+    private bool currentlyCrawling = false;
     
 
     //variables that may be used multiple times or frequently
@@ -109,7 +113,7 @@ public class playerMovement : MonoBehaviour
         //transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
 
         if(xMov != 0){
-            if((Input.GetButton("Crawl") && onGround) || forceCrawl){
+            if(crawlInput()){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -125,7 +129,7 @@ public class playerMovement : MonoBehaviour
             }
         }
         else{
-            if((Input.GetButton("Crawl") && onGround) || forceCrawl){
+            if(crawlInput()){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -144,6 +148,7 @@ public class playerMovement : MonoBehaviour
     void PlayerJump(){
         //make sure the player is only able to jump while on the ground
         if(Input.GetButtonDown("Jump") && onGround && canMove()){
+            currentlyCrawling = false;
             onGround = false;
             myBody.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
             if(myBody.velocity.y >= maxVerticalSpeed){
@@ -253,5 +258,24 @@ public class playerMovement : MonoBehaviour
     }
     void Death(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private bool crawlInput() {
+        if (crawlToggle) {
+            if (Input.GetButtonDown("Crawl") && onGround) {
+                currentlyCrawling = !currentlyCrawling;
+            }
+            if (currentlyCrawling && onGround) {
+                return true;
+            }
+        } else {
+            if (Input.GetButton("Crawl") && onGround) {
+                return true;
+            }
+        }
+        if (forceCrawl) {
+            return true;
+        }
+        return false;
     }
 }

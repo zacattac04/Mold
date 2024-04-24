@@ -9,6 +9,7 @@ TagManager:
   - HidingPlace
   - Block
   - crawlSpace
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Hiding
-  - 
+  - Player
   - 
   - 
   - 
