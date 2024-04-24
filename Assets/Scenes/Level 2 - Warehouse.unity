@@ -666,6 +666,7 @@ GameObject:
   - component: {fileID: 212499649}
   - component: {fileID: 212499653}
   - component: {fileID: 212499652}
+  - component: {fileID: 212499654}
   m_Layer: 0
   m_Name: Blue Box
   m_TagString: Ground
@@ -834,6 +835,19 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0.00000011920929, y: -0.000000059604645, z: 0}
     m_Extent: {x: 0.9900001, y: 0.935, z: 0}
+--- !u!114 &212499654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212499648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4716c74a5cc17408aa1420d688bc73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 0.8
 --- !u!1001 &228806681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2833,6 +2847,7 @@ GameObject:
   - component: {fileID: 847389093}
   - component: {fileID: 847389092}
   - component: {fileID: 847389091}
+  - component: {fileID: 847389094}
   m_Layer: 0
   m_Name: Stack of Crates
   m_TagString: Ground
@@ -3001,6 +3016,19 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &847389094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847389088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4716c74a5cc17408aa1420d688bc73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 0.8
 --- !u!1001 &883897969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4580,6 +4608,7 @@ GameObject:
   - component: {fileID: 1279183665}
   - component: {fileID: 1279183664}
   - component: {fileID: 1279183663}
+  - component: {fileID: 1279183668}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Ground
@@ -4748,6 +4777,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279183668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279183662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4716c74a5cc17408aa1420d688bc73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 0.8
 --- !u!1 &1297772638
 GameObject:
   m_ObjectHideFlags: 0
