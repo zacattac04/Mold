@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1 - House.unity
     guid: f9532bcdfc4ffd1428d0136743a651c0
+  - enabled: 1
+    path: Assets/Scenes/Level 1.5 - Transition to Warehouse.unity
+    guid: 0ae94f570e12046409cdf6e6ab5fcb5d
   m_configObjects: {}
