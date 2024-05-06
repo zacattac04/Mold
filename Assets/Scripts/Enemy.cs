@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -39,6 +39,20 @@ public class Enemy : MonoBehaviour
         if(health <= 0){
             anim.SetBool("Death", true);
             Destroy(gameObject, 0.4f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision){
+
+        if(collision.gameObject.CompareTag("Block")){
+            anim.SetBool("IsBreaking", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision){
+
+        if(collision.gameObject.CompareTag("Block")){
+            anim.SetBool("IsBreaking", false);
         }
     }
 }

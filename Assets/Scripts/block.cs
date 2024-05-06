@@ -41,9 +41,13 @@ public class block : MonoBehaviour
                 anim.SetBool("isBroken", true);
                 Destroy(gameObject, 1.0f);
             }
+            else{
+                anim.SetBool("isBroken", true);
+                Destroy(gameObject,1.0f);
+            }
         }
         else if(collision.gameObject.CompareTag(GROUND_TAG)){
-            Debug.Log(myBody.velocity.y);
+            Debug.Log(myBody.velocity.y);   
             if(Mathf.Abs(myBody.velocity.y) > maximumVerticalSpeed){
                 anim.SetBool("isBroken", true);
                 Destroy(gameObject, 1.0f);
