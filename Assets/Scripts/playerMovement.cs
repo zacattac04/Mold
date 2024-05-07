@@ -98,7 +98,6 @@ public class playerMovement : MonoBehaviour
 
     //Player's x and y movement not including special movement options
     void PlayerMovement(){
-        
         xMov = Input.GetAxisRaw("Horizontal");
         yMov = Input.GetAxisRaw("Vertical");
 
@@ -116,7 +115,9 @@ public class playerMovement : MonoBehaviour
         //transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
 
         if(xMov != 0){
+            if (!footsteps.isPlaying && onGround) footsteps.Play();
             if(crawlInput()){
+                
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -129,9 +130,10 @@ public class playerMovement : MonoBehaviour
                 collider.size = walkSize;
                 collider.offset = walkOffset;
                 transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
+
             }
-        }
-        else{
+        }else{
+            if (footsteps.isPlaying) footsteps.Stop();
             if(crawlInput()){
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
@@ -151,6 +153,7 @@ public class playerMovement : MonoBehaviour
     void PlayerJump(){
         //make sure the player is only able to jump while on the ground
         if(Input.GetButtonDown("Jump") && onGround && canMove()){
+            if (footsteps.isPlaying) footsteps.Stop();
             currentlyCrawling = false;
             onGround = false;
             myBody.AddForce(new Vector2(0, jumpforce), ForceMode2D.Impulse);
@@ -168,6 +171,7 @@ public class playerMovement : MonoBehaviour
             sprite.enabled = !hiding;
             shadow.enabled = !hiding;
             currLocker.playerEnter();
+            if (footsteps.isPlaying) footsteps.Stop();
 
             if (hiding) {
                 int hideLayer = LayerMask.NameToLayer("Hiding");
