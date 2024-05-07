@@ -210,7 +210,7 @@ public class playerMovement : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag(ENEMY_TAG)){
             if(!hiding){
-                Death();
+                Death(1.5f);
             }
         }
         else if(collision.gameObject.CompareTag(BLOCK_TAG)){
@@ -263,8 +263,18 @@ public class playerMovement : MonoBehaviour
     public bool isHiding() {
         return hiding;
     }
-    void Death(){
+    void Death(float delay){
+        StartCoroutine(DisableSpriteAfterDelay(0.3f));
+        StartCoroutine(LoadLevelAfterDelay(delay));
+    }
+    IEnumerator LoadLevelAfterDelay(float delay){
+        yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator DisableSpriteAfterDelay(float delay){
+        yield return new WaitForSeconds(delay);
+        sprite.enabled = false;
     }
 
     private bool crawlInput() {

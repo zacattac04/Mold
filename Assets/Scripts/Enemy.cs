@@ -47,6 +47,9 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.CompareTag("Block")){
             anim.SetBool("IsBreaking", true);
         }
+        if(collision.gameObject.CompareTag("Player")){
+            anim.SetBool("Killing", true);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision){
