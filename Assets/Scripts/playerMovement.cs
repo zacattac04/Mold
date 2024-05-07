@@ -35,6 +35,9 @@ public class playerMovement : MonoBehaviour
     [SerializeField]
     private bool crawlToggle;
     private bool currentlyCrawling = false;
+
+    [SerializeField]
+    private AudioSource footsteps;
     
 
     //variables that may be used multiple times or frequently
@@ -170,8 +173,8 @@ public class playerMovement : MonoBehaviour
                 int hideLayer = LayerMask.NameToLayer("Hiding");
                 gameObject.layer = hideLayer;
             } else {
-                int defaultLayer = LayerMask.NameToLayer("Default");
-                gameObject.layer = defaultLayer;
+                int PlayerLayer = LayerMask.NameToLayer("Player");
+                gameObject.layer = PlayerLayer;
             }
         }
     }
