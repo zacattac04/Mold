@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b9b1d7b1c6a9562469c96d0162f0ec68
+guid: 66d13f043d1b2d54abafb2c0949f0126
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,28 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: infectedkillingsprites_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2173
-        width: 125
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b586b39f88735e941ac784c51ac702cb
-      internalID: -292654429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: infectedkillingsprites_1
+      name: infectedkillingsprites (1)_0
       rect:
         serializedVersion: 2
         x: 411
@@ -132,35 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8d41691c881014a816cb72661f0c37
-      internalID: -685193776
+      spriteID: 44d0e6434bbd03143942e3f9f76cd259
+      internalID: -1815972664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_2
-      rect:
-        serializedVersion: 2
-        x: 1129
-        y: 2173
-        width: 126
-        height: 326
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4eb2235ad6d7de46af028ad36b27515
-      internalID: 1485722213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: infectedkillingsprites_3
+      name: infectedkillingsprites (1)_1
       rect:
         serializedVersion: 2
         x: 1541
@@ -174,35 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7955d37733b0843b45524b3ffc4661
-      internalID: -1507839519
+      spriteID: 2a2f7ed553a81594881433faaa36fa79
+      internalID: 634993253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_4
-      rect:
-        serializedVersion: 2
-        x: 2223
-        y: 2157
-        width: 128
-        height: 326
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11376f92229a58048a9b608eab66b8e0
-      internalID: 1625106597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: infectedkillingsprites_5
+      name: infectedkillingsprites (1)_2
       rect:
         serializedVersion: 2
         x: 2641
@@ -216,19 +153,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ada7e43c7f04a54794d00907aca74fb
-      internalID: 381044094
+      spriteID: 7eb654ee1b448c340b927b633eba8b69
+      internalID: 2025704937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_6
+      name: infectedkillingsprites (1)_3
       rect:
         serializedVersion: 2
         x: 3225
         y: 2157
-        width: 871
+        width: 804
         height: 714
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -237,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5bcc0132bbb2664d854b3a421942ac8
-      internalID: 1290338534
+      spriteID: 4c058a4744cdb7140b3d3bed3ce65111
+      internalID: 234961283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_7
+      name: infectedkillingsprites (1)_4
       rect:
         serializedVersion: 2
         x: 159
@@ -258,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 945eaa5da1fe32b40a837066a0ff33b4
-      internalID: 1254216685
+      spriteID: df2625a5b7d73464dafacf9d6cd93c49
+      internalID: 1976833645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_8
+      name: infectedkillingsprites (1)_5
       rect:
         serializedVersion: 2
         x: 1237
@@ -279,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adfad42e3f6aa324cb6aa777342a4c2e
-      internalID: 1248611550
+      spriteID: 6cf21a636af0047499e8440987cf8245
+      internalID: -310064859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_9
+      name: infectedkillingsprites (1)_6
       rect:
         serializedVersion: 2
         x: 2377
@@ -300,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c024f0dadbdfe94cb17f23fcb97ce3d
-      internalID: -731454627
+      spriteID: 473b50d15d2d0d64a8ecf89fa9f45d82
+      internalID: 1798565393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_10
+      name: infectedkillingsprites (1)_7
       rect:
         serializedVersion: 2
         x: 3375
@@ -321,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd984f6b816107c4190c1e1d4be834e0
-      internalID: -1085190011
+      spriteID: f95af48be70752b42b493b7ab172af25
+      internalID: 1999464036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_11
+      name: infectedkillingsprites (1)_8
       rect:
         serializedVersion: 2
         x: 237
@@ -342,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2fbd20d876fca84e8505873ab83c2a9
-      internalID: -1863957438
+      spriteID: 6846274a81d2fa845a802274e4fc9c34
+      internalID: -829309711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedkillingsprites_12
+      name: infectedkillingsprites (1)_9
       rect:
         serializedVersion: 2
         x: 1321
@@ -363,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03f78ba7eb0b2054c9770b62d0d7e4cf
-      internalID: 838041839
+      spriteID: b2f030c9ed6dd06458eaa6be13cce54b
+      internalID: 1365215593
       vertices: []
       indices: 
       edges: []
@@ -380,19 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      infectedkillingsprites_0: -292654429
-      infectedkillingsprites_1: -685193776
-      infectedkillingsprites_10: -1085190011
-      infectedkillingsprites_11: -1863957438
-      infectedkillingsprites_12: 838041839
-      infectedkillingsprites_2: 1485722213
-      infectedkillingsprites_3: -1507839519
-      infectedkillingsprites_4: 1625106597
-      infectedkillingsprites_5: 381044094
-      infectedkillingsprites_6: 1290338534
-      infectedkillingsprites_7: 1254216685
-      infectedkillingsprites_8: 1248611550
-      infectedkillingsprites_9: -731454627
+      infectedkillingsprites (1)_0: -1815972664
+      infectedkillingsprites (1)_1: 634993253
+      infectedkillingsprites (1)_2: 2025704937
+      infectedkillingsprites (1)_3: 234961283
+      infectedkillingsprites (1)_4: 1976833645
+      infectedkillingsprites (1)_5: -310064859
+      infectedkillingsprites (1)_6: 1798565393
+      infectedkillingsprites (1)_7: 1999464036
+      infectedkillingsprites (1)_8: -829309711
+      infectedkillingsprites (1)_9: 1365215593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
