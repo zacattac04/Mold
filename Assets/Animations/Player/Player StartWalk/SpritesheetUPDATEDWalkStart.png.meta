@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c17ef4c136489674594305700c90d7dd
+guid: bff6ceb523eee1a42b58f3232758e0a5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,70 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpritesheetUPDATEDWalk_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1d5923264e6a92438f0baf6cea8389c
-      internalID: 1007457990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetUPDATEDWalk_1
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7578af37e19b1c341a5a705282f96d60
-      internalID: -405846728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetUPDATEDWalk_2
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4df25d550ca85a343a1a9bc0bdef857f
-      internalID: -1512953104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetUPDATEDWalk_3
+      name: SpritesheetUPDATEDWalkStart_0
       rect:
         serializedVersion: 2
         x: 0
@@ -174,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13294c0d36ebd044190f97d0d5d4d2e0
-      internalID: -1215429770
+      spriteID: 4663ec69fd2b7cb4282f3e9c4877cfd9
+      internalID: 2047009261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetUPDATEDWalk_4
+      name: SpritesheetUPDATEDWalkStart_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -195,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21797bd4cd7b11e419877de6ce608e0c
-      internalID: -1921870321
+      spriteID: 2f68c95898e1be347a7486e48693c388
+      internalID: 66622120
       vertices: []
       indices: 
       edges: []
@@ -212,12 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpritesheetUPDATEDWalk_0: 1007457990
-      SpritesheetUPDATEDWalk_1: -405846728
-      SpritesheetUPDATEDWalk_2: -1512953104
-      SpritesheetUPDATEDWalk_3: -1215429770
-      SpritesheetUPDATEDWalk_4: -1921870321
-      SpritesheetUPDATEDWalk_5: -894180743
+      SpritesheetUPDATEDWalkStart_0: 2047009261
+      SpritesheetUPDATEDWalkStart_1: 66622120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
