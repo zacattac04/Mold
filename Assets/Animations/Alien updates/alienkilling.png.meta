@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 3000
+  spritePixelsToUnits: 1300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,12 +100,12 @@ TextureImporter:
       name: alienkilling_0
       rect:
         serializedVersion: 2
-        x: 131
-        y: 3145
-        width: 124
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.76181, y: 0.45068884}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: alienkilling_1
       rect:
         serializedVersion: 2
-        x: 597
-        y: 3121
-        width: 314
-        height: 788
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.7601855, y: 0.44244766}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: alienkilling_2
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 3139
-        width: 128
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.7139597, y: 0.4477303}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: alienkilling_3
       rect:
         serializedVersion: 2
-        x: 1617
-        y: 3117
-        width: 346
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.70603514, y: 0.4477303}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: alienkilling_4
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 3149
-        width: 128
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.72138804, y: 0.48164463}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: alienkilling_5
       rect:
         serializedVersion: 2
-        x: 2597
-        y: 3127
-        width: 366
-        height: 782
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.7456291, y: 0.48133445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: alienkilling_6
       rect:
         serializedVersion: 2
-        x: 3111
-        y: 3123
-        width: 928
-        height: 786
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.73293424, y: 0.485497}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: alienkilling_7
       rect:
         serializedVersion: 2
-        x: 75
-        y: 2133
-        width: 848
-        height: 796
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.66171575, y: 0.47851992}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: alienkilling_8
       rect:
         serializedVersion: 2
-        x: 1143
-        y: 2141
-        width: 826
-        height: 788
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.63860786, y: 0.51814127}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: alienkilling_9
       rect:
         serializedVersion: 2
-        x: 2151
-        y: 2137
-        width: 818
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.5953934, y: 0.5077318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,111 +302,6 @@ TextureImporter:
       bones: []
       spriteID: a97d466c0b1329d4db37f615390e8a4c
       internalID: -921056632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alienkilling_10
-      rect:
-        serializedVersion: 2
-        x: 3117
-        y: 1777
-        width: 979
-        height: 1151
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6200e6e4b7e842347b8d7ba1f89438e6
-      internalID: 1490711009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alienkilling_11
-      rect:
-        serializedVersion: 2
-        x: 697
-        y: 2110
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7bb28b307a84da44a73d1ce3ec6c372
-      internalID: 990931973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alienkilling_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1771
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44f3a895689df8a42a184fc43eae4a6c
-      internalID: 338355755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alienkilling_13
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 1151
-        width: 804
-        height: 790
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cb2878af69f70c49bea57c913fc04dd
-      internalID: 50632537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alienkilling_14
-      rect:
-        serializedVersion: 2
-        x: 1063
-        y: 1145
-        width: 746
-        height: 788
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c222933966badd64db0abade405a42fa
-      internalID: -1239764505
       vertices: []
       indices: 
       edges: []
@@ -425,10 +320,6 @@ TextureImporter:
       alienkilling_0: 1935904043
       alienkilling_1: -1114277246
       alienkilling_10: 1490711009
-      alienkilling_11: 990931973
-      alienkilling_12: 338355755
-      alienkilling_13: 50632537
-      alienkilling_14: -1239764505
       alienkilling_2: 320031197
       alienkilling_3: -1007753980
       alienkilling_4: 842812249
