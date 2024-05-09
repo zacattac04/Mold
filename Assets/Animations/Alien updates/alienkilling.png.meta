@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1345b0056024de14fbe65f4f8c81f698
+guid: 75a2a5406bbb7fb42abeb4d98d768e34
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 380
+  spritePixelsToUnits: 1300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,211 +97,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: infectedboxbreak_0
+      name: alienkilling_0
       rect:
         serializedVersion: 2
-        x: 139
-        y: 1117
-        width: 530
-        height: 770
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.76181, y: 0.45068884}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c022fcf55f9550049acc9ce7b5f68e32
-      internalID: -1175069673
+      spriteID: f7dcdb470aface344acdb055c56220b5
+      internalID: 1935904043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_1
+      name: alienkilling_1
       rect:
         serializedVersion: 2
-        x: 983
-        y: 1113
-        width: 522
-        height: 762
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.5, y: 0.5052493}
+      pivot: {x: 0.7601855, y: 0.44244766}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d489acd4cb47cc843a300dfc826f9e95
-      internalID: -2055983262
+      spriteID: cd192a3d572eaed42a56b2ef97f82300
+      internalID: -1114277246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_3
+      name: alienkilling_2
       rect:
         serializedVersion: 2
-        x: 1727
-        y: 1115
-        width: 656
-        height: 744
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.42, y: 0.5174731}
+      pivot: {x: 0.7139597, y: 0.4477303}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e324107275b13c40b90fc991ac3b6f1
-      internalID: -17959444
+      spriteID: 37b2cd5f10ced61469c55cfc5f9413bb
+      internalID: 320031197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_4
+      name: alienkilling_3
       rect:
         serializedVersion: 2
-        x: 2533
-        y: 1109
-        width: 718
-        height: 746
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.39275765, y: 0.5160858}
+      pivot: {x: 0.70603514, y: 0.4477303}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4e4fe1a051e39448f25ff8d126532e
-      internalID: -2056422138
+      spriteID: 2ab93c299b06b3d49a374b54237bffe7
+      internalID: -1007753980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_5
+      name: alienkilling_4
       rect:
         serializedVersion: 2
-        x: 3345
-        y: 1125
-        width: 464
-        height: 946
+        x: 3
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.5226293, y: 0.40697673}
+      pivot: {x: 0.72138804, y: 0.48164463}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a45bd752f2c4d546a1e76014e98dd88
-      internalID: -24497626
+      spriteID: 0fda29aeaeb36004e91a872454daafc7
+      internalID: 842812249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_6
+      name: alienkilling_5
       rect:
         serializedVersion: 2
-        x: 183
-        y: 99
-        width: 364
-        height: 910
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.67994505, y: 0.42307693}
+      pivot: {x: 0.7456291, y: 0.48133445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc584d63c62fd854886a2dc8e6dad557
-      internalID: -476100371
+      spriteID: 1fc5d44cb555e044f8a9d13f7e439cd1
+      internalID: 691530186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_7
+      name: alienkilling_6
       rect:
         serializedVersion: 2
-        x: 867
-        y: 111
-        width: 506
-        height: 716
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.843083, y: 0.5377095}
+      pivot: {x: 0.73293424, y: 0.485497}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15fc0d1b421876c469edbfbaaa5edc88
-      internalID: 326682365
+      spriteID: 9d043f8ef718eea4f9399407cf1e493f
+      internalID: 1015512373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_8
+      name: alienkilling_7
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 97
-        width: 566
-        height: 726
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.8726148, y: 0.530303}
+      pivot: {x: 0.66171575, y: 0.47851992}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ffc61afaa2e8e419d3c2f25056a1d0
-      internalID: -2068126900
+      spriteID: 3deb2d670757e3144b68acf8bd13277a
+      internalID: -846717256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_9
+      name: alienkilling_8
       rect:
         serializedVersion: 2
-        x: 2411
-        y: 89
-        width: 494
-        height: 732
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.8216599, y: 0.5259563}
+      pivot: {x: 0.63860786, y: 0.51814127}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 220e910392d923f4cb42a220abb4b417
-      internalID: -1971713035
+      spriteID: 49aba09bf71fdfd4bacdb35d33b57674
+      internalID: 1799852983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: infectedboxbreak_10
+      name: alienkilling_9
       rect:
         serializedVersion: 2
-        x: 3159
-        y: 79
-        width: 526
-        height: 734
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 9
-      pivot: {x: 0.8102662, y: 0.52452314}
+      pivot: {x: 0.5953934, y: 0.5077318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6453c2b6be9de6d48995c338778b8688
-      internalID: 1602696466
+      spriteID: a97d466c0b1329d4db37f615390e8a4c
+      internalID: -921056632
       vertices: []
       indices: 
       edges: []
@@ -317,17 +317,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      infectedboxbreak_0: -1175069673
-      infectedboxbreak_1: -2055983262
-      infectedboxbreak_10: 1602696466
-      infectedboxbreak_2: -947796527
-      infectedboxbreak_3: -17959444
-      infectedboxbreak_4: -2056422138
-      infectedboxbreak_5: -24497626
-      infectedboxbreak_6: -476100371
-      infectedboxbreak_7: 326682365
-      infectedboxbreak_8: -2068126900
-      infectedboxbreak_9: -1971713035
+      alienkilling_0: 1935904043
+      alienkilling_1: -1114277246
+      alienkilling_10: 1490711009
+      alienkilling_2: 320031197
+      alienkilling_3: -1007753980
+      alienkilling_4: 842812249
+      alienkilling_5: 691530186
+      alienkilling_6: 1015512373
+      alienkilling_7: -846717256
+      alienkilling_8: 1799852983
+      alienkilling_9: -921056632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
