@@ -100,12 +100,12 @@ TextureImporter:
       name: Crate spritesheet (1)_0
       rect:
         serializedVersion: 2
-        x: 330
-        y: 2203
-        width: 505
-        height: 434
+        x: 0
+        y: 2070
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: Crate spritesheet (1)_1
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 2186
-        width: 595
-        height: 500
+        x: 1282
+        y: 2070
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,36 +139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crate spritesheet (1)_2
-      rect:
-        serializedVersion: 2
-        x: 2609
-        y: 2146
-        width: 1183
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac30d4b4e773af543b18cc5acf778168
-      internalID: 863185615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Crate spritesheet (1)_3
       rect:
         serializedVersion: 2
-        x: 245
-        y: 1446
-        width: 695
-        height: 556
+        x: 0
+        y: 1380
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +163,12 @@ TextureImporter:
       name: Crate spritesheet (1)_4
       rect:
         serializedVersion: 2
-        x: 1505
-        y: 1496
-        width: 100
-        height: 101
+        x: 1282
+        y: 1380
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,36 +181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crate spritesheet (1)_5
-      rect:
-        serializedVersion: 2
-        x: 1582
-        y: 1458
-        width: 657
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e869e6ea9fc31047b9b3dc118be9d0b
-      internalID: -1164105238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Crate spritesheet (1)_6
       rect:
         serializedVersion: 2
-        x: 2159
-        y: 1465
-        width: 97
-        height: 89
+        x: 0
+        y: 690
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +205,12 @@ TextureImporter:
       name: Crate spritesheet (1)_7
       rect:
         serializedVersion: 2
-        x: 2609
-        y: 1456
-        width: 1183
-        height: 101
+        x: 1282
+        y: 690
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,36 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crate spritesheet (1)_8
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 790
-        width: 866
-        height: 405
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e671468b7a7c8d349b5f6c301cfa8872
-      internalID: 2006910645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Crate spritesheet (1)_9
       rect:
         serializedVersion: 2
-        x: 208
-        y: 964
-        width: 210
-        height: 242
+        x: 0
+        y: 0
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +247,12 @@ TextureImporter:
       name: Crate spritesheet (1)_10
       rect:
         serializedVersion: 2
-        x: 613
-        y: 1043
-        width: 267
-        height: 191
+        x: 1282
+        y: 0
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +268,12 @@ TextureImporter:
       name: Crate spritesheet (1)_11
       rect:
         serializedVersion: 2
-        x: 1366
-        y: 766
-        width: 1170
-        height: 311
+        x: 2564
+        y: 0
+        width: 1282
+        height: 690
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,111 +281,6 @@ TextureImporter:
       bones: []
       spriteID: 909781ea6944a404181a929eb51c554c
       internalID: 898205205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crate spritesheet (1)_12
-      rect:
-        serializedVersion: 2
-        x: 874
-        y: 765
-        width: 85
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd40b87887afecd4c81ce029acd9c3a7
-      internalID: 327195649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crate spritesheet (1)_13
-      rect:
-        serializedVersion: 2
-        x: 2609
-        y: 766
-        width: 1183
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 070bdcaa102634646b4ccba98ba02203
-      internalID: 1919749495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crate spritesheet (1)_14
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 76
-        width: 1220
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28c624d707facec45a937d2fa731f87a
-      internalID: -150352799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crate spritesheet (1)_15
-      rect:
-        serializedVersion: 2
-        x: 1327
-        y: 76
-        width: 1183
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96e765e46fd90464ea25ce0d4dd400b9
-      internalID: 1028306817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crate spritesheet (1)_16
-      rect:
-        serializedVersion: 2
-        x: 2609
-        y: 76
-        width: 1183
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baaab4a18beab974ba17becc99edb847
-      internalID: -73529831
       vertices: []
       indices: 
       edges: []
@@ -468,11 +300,6 @@ TextureImporter:
       Crate spritesheet (1)_1: -513995506
       Crate spritesheet (1)_10: 1722176060
       Crate spritesheet (1)_11: 898205205
-      Crate spritesheet (1)_12: 327195649
-      Crate spritesheet (1)_13: 1919749495
-      Crate spritesheet (1)_14: -150352799
-      Crate spritesheet (1)_15: 1028306817
-      Crate spritesheet (1)_16: -73529831
       Crate spritesheet (1)_2: 863185615
       Crate spritesheet (1)_3: -190191584
       Crate spritesheet (1)_4: -2109939553
