@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 34cdf49d7f358034aa058c3acd224562
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8413.714
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdf3b89277145c42bddb33a6e12d956
+      internalID: 286642858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_1
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 8413.714
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a969548d9cef34e908789f4fee2a3b
+      internalID: -1051440067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_2
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 8413.714
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c44bf340dd15d4aa217ff40ad0e650
+      internalID: 634666763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_3
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 8413.714
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b534c0ee458b849a3fa2d7cfc1fb40
+      internalID: 1921488675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_4
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 8413.714
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d8c5dc1499c6e4f977cdcf37e08f15
+      internalID: -2036042077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7011.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026cbaef9f2804f4b8e88da21e6b5d0e
+      internalID: -2047601705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_6
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 7011.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d4716fa8b04ec4285bce0678499079
+      internalID: -1444748768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_7
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 7011.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425294c6f82f3546b09954b5d212916
+      internalID: 1911529829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_8
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 7011.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5735c23a98394bb998f08b9a4f1e2
+      internalID: 1955618638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_9
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 7011.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f6d14045f1dfb4f92b14e6ad45a5f8
+      internalID: 1600090153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5609.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa774a4e2676914eba78b473be53d07
+      internalID: -262164018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 5609.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150aaf2eb4cfe7478c5f02364c746e8
+      internalID: 447227806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_12
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 5609.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b3d74f88ce15b4f8c8bdf824110773
+      internalID: -1138192317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_13
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 5609.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42f32edc7e99434fb59520db6b27895
+      internalID: -1060045966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_14
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 5609.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98f4e007617d44b81e96088ce206ae
+      internalID: 481792857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4207.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbdf146e0c4b45408453831d99041aa
+      internalID: -1695233204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_16
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 4207.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78629d390c0047c44997332a7a6c3d7b
+      internalID: -1289680280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_17
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 4207.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb805bcb1b45c8409055a89ff8e6265
+      internalID: 1005599564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_18
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 4207.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb1148d2d4b5b247a4abeb5fc57c234
+      internalID: -1334825922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_19
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 4207.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee6422654b0cec44b1dd0e44bc5c64f
+      internalID: 846816998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2805.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63062597fdfdd7c4db357c0a6be2f03f
+      internalID: 1340121382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_21
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2805.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea85b8025ddba44da3bb08200041a72
+      internalID: -1050667923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_22
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 2805.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e279f6ebd4ead4cb1690254d791192
+      internalID: 1011713129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_23
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 2805.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b6003610af7a944b79783e9ae45f79
+      internalID: 2124693478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_24
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 2805.7144
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ec2029de25ddc4d922b6f6828e3558
+      internalID: 650321517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1403.7142
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d094f431f50f048bd5e2dd905ae162
+      internalID: -1208408284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_26
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1403.7142
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea994570937968e418d95282c754566d
+      internalID: -1520136250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_27
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 1403.7142
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc162d9ee14343a4c9406be2b92d35e5
+      internalID: -1045626731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_28
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 1403.7142
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dd05da3b4d94c4e92a98f16d9108c9
+      internalID: -1747574992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_29
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 1403.7142
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0bc8019975d094fb5e16ba25ffe371
+      internalID: -879810541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.7142334
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64784520c6eb7ec48b0e21a24c67936c
+      internalID: -1832172258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_31
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1.7142334
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7441af68aee08408aa95884509dff9
+      internalID: 1758244292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_32
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 1.7142334
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9fccd70ad44c947b9b1d700a8d97dd
+      internalID: 1180150914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_33
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 1.7142334
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fc320e3edba8e4d86a71d2ed44700b
+      internalID: -1046589393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutatedtreestumpswaydownsized_34
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 1.7142334
+        width: 1610.4
+        height: 1402.2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f13c936ecb00848942cf3b1dd980ac
+      internalID: -1619513002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mutatedtreestumpswaydownsized_0: 286642858
+      mutatedtreestumpswaydownsized_1: -1051440067
+      mutatedtreestumpswaydownsized_10: -262164018
+      mutatedtreestumpswaydownsized_11: 447227806
+      mutatedtreestumpswaydownsized_12: -1138192317
+      mutatedtreestumpswaydownsized_13: -1060045966
+      mutatedtreestumpswaydownsized_14: 481792857
+      mutatedtreestumpswaydownsized_15: -1695233204
+      mutatedtreestumpswaydownsized_16: -1289680280
+      mutatedtreestumpswaydownsized_17: 1005599564
+      mutatedtreestumpswaydownsized_18: -1334825922
+      mutatedtreestumpswaydownsized_19: 846816998
+      mutatedtreestumpswaydownsized_2: 634666763
+      mutatedtreestumpswaydownsized_20: 1340121382
+      mutatedtreestumpswaydownsized_21: -1050667923
+      mutatedtreestumpswaydownsized_22: 1011713129
+      mutatedtreestumpswaydownsized_23: 2124693478
+      mutatedtreestumpswaydownsized_24: 650321517
+      mutatedtreestumpswaydownsized_25: -1208408284
+      mutatedtreestumpswaydownsized_26: -1520136250
+      mutatedtreestumpswaydownsized_27: -1045626731
+      mutatedtreestumpswaydownsized_28: -1747574992
+      mutatedtreestumpswaydownsized_29: -879810541
+      mutatedtreestumpswaydownsized_3: 1921488675
+      mutatedtreestumpswaydownsized_30: -1832172258
+      mutatedtreestumpswaydownsized_31: 1758244292
+      mutatedtreestumpswaydownsized_32: 1180150914
+      mutatedtreestumpswaydownsized_33: -1046589393
+      mutatedtreestumpswaydownsized_34: -1619513002
+      mutatedtreestumpswaydownsized_4: -2036042077
+      mutatedtreestumpswaydownsized_5: -2047601705
+      mutatedtreestumpswaydownsized_6: -1444748768
+      mutatedtreestumpswaydownsized_7: 1911529829
+      mutatedtreestumpswaydownsized_8: 1955618638
+      mutatedtreestumpswaydownsized_9: 1600090153
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
