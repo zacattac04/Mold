@@ -35,13 +35,11 @@ public class TitleMenu : MonoBehaviour
     }
 
     public void ToHouseLevel(){
-
-        SceneManager.LoadScene(houseLevel, LoadSceneMode.Single);
+        SceneManager.LoadScene(houseLevel);
     }
 
     public void ToWarehouseLevel(){
-        
-        SceneManager.LoadScene(warehouseLevel, LoadSceneMode.Single);
+        SceneManager.LoadScene(warehouseLevel);
     }
 
     public void ToLevelSelect(){
