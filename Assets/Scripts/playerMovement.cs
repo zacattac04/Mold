@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class playerMovement : MonoBehaviour
 {
-
+    public GameObject blackOutSquare;
     //speed for horizontal movement
     [SerializeField]
     private float speed = 5;
@@ -82,7 +83,7 @@ public class playerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(FadeBlackOutSquare(false));
     }
 
     // Update is called once per frame
@@ -266,6 +267,7 @@ public class playerMovement : MonoBehaviour
     }
     void Death(float delay){
         StartCoroutine(DisableSpriteAfterDelay(0.3f));
+        StartCoroutine(FadeBlackOutSquare());
         StartCoroutine(LoadLevelAfterDelay(delay));
     }
     IEnumerator LoadLevelAfterDelay(float delay){
@@ -276,6 +278,30 @@ public class playerMovement : MonoBehaviour
     IEnumerator DisableSpriteAfterDelay(float delay){
         yield return new WaitForSeconds(delay);
         sprite.enabled = false;
+    }
+
+    public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, int fadeSpeed = 2) {
+        Color objectColor = blackOutSquare.GetComponent<Image>().color;
+        float fadeAmount;
+
+        if (fadeToBlack) {
+            //yield return new WaitForSeconds(1f);
+            while (blackOutSquare.GetComponent<Image>().color.a < 1) {
+                fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackOutSquare.GetComponent <Image>().color = objectColor;
+                yield return null;
+            }
+        } else {
+            while (blackOutSquare.GetComponent<Image>().color.a > 0) {
+                fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackOutSquare.GetComponent <Image>().color = objectColor;
+                yield return null;
+            }
+        }
     }
 
     private bool crawlInput() {

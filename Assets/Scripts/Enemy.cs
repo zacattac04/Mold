@@ -58,4 +58,5 @@ public class Enemy : MonoBehaviour
             anim.SetBool("IsBreaking", false);
         }
     }
+
 }
