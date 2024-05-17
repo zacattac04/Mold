@@ -206,6 +206,7 @@ public class playerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag(GROUND_TAG)){
             onGround = true;
+            anim.SetBool("IsFalling", false);
             if(anim.GetBool("IsJumping")){
                 anim.SetBool("IsJumping", false);
             }
@@ -219,6 +220,7 @@ public class playerMovement : MonoBehaviour
             //if player is on top of the box, allow them to jump, but no push animation
             if(collision.gameObject.transform.position.y < transform.position.y){
                 onGround = true;
+                anim.SetBool("IsFalling", false);
                 if(anim.GetBool("IsJumping")){
                     anim.SetBool("IsJumping", false);
                 }
@@ -238,6 +240,9 @@ public class playerMovement : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision){
         if(collision.gameObject.CompareTag(BLOCK_TAG)){
             anim.SetBool("IsPushing", false);
+        }
+        else if(collision.gameObject.CompareTag(GROUND_TAG)){
+            anim.SetBool("IsFalling", true);
         }
     }
 
