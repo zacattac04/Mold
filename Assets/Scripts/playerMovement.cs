@@ -115,9 +115,9 @@ public class playerMovement : MonoBehaviour
         //transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * speed;
 
         if(xMov != 0){
-            if (!footsteps.isPlaying && onGround) footsteps.Play();
+            
             if(crawlInput()){
-                
+                if (footsteps.isPlaying) footsteps.Stop();
                 anim.SetBool("IsCrawling", true);
                 anim.SetBool("IsWalking", false);
                 collider.size = crawlSize;
@@ -125,6 +125,7 @@ public class playerMovement : MonoBehaviour
                 transform.position += new Vector3(xMov, 0, 0) * Time.deltaTime * crawlSpeed;
             }
             else{
+                if (!footsteps.isPlaying && onGround) footsteps.Play();
                 anim.SetBool("IsWalking", true);
                 anim.SetBool("IsCrawling", false);
                 collider.size = walkSize;
